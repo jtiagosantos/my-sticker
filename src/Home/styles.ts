@@ -17,7 +17,7 @@ export const styles = StyleSheet.create({
   },
   camera: {
     width: Dimensions.get("screen").width - 58,
-    height: 300
+    height: 400,
   },
   player: {
     width: '100%',
@@ -27,9 +27,14 @@ export const styles = StyleSheet.create({
     alignItems: 'center'
   },
   name: {
+    width: '100%',
     fontSize: 22,
     fontWeight: '900',
-    color: '#000',
-    textTransform: 'uppercase'
-  }
+    color: '#2D3748',
+    textTransform: 'uppercase',
+    textAlign: 'center',
+  },
+  sticker: {
+    backgroundColor: '#373D98',
+  },
 });
